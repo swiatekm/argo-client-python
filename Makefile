@@ -2,7 +2,7 @@ PACKAGE_NAME        = workflows.client
 PACKAGE_DESCRIPTION = Python client for Argo Workflows
 
 CURRENT_DIR ?= $(shell pwd)
-OUTPUT_DIR  ?= ./
+OUTPUT_DIR  ?= .
 
 define get_branch
 $(shell git branch | sed -n '/\* /s///p')

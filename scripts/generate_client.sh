@@ -113,9 +113,9 @@ argo::generate::generate_client() {
 		-c /local/${openapi_config} \
 		-i /local/${openapi_spec} \
 		-o /local/${output_dir} \
-        -DmodelTests=false \
-		-DpackageName=${PACKAGE_NAME} \
-		-DpackageVersion=${CLIENT_VERSION}
+#    -DmodelTests=false \
+#		-DpackageName=${PACKAGE_NAME} \
+#		-DpackageVersion=${CLIENT_VERSION}
 
     CLEANUP_DIRS=( "${output_dir}/test" "${output_dir}/openapi_client" )
 
